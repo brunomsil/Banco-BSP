@@ -1,0 +1,162 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+  }
+  
+ 
+  header {
+	background-color: darkblue;
+	height: 100%;
+	width: 100%;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 10px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+	
+  }
+
+  .mensagem{
+	font-size: 50px;
+    font-family: auto;
+  }
+  .imagem-logo {
+	  display: flex;
+  }
+
+.logo-pagina {
+display: flex;
+height: 30vh;
+width: 100vw;
+align-items: center;
+justify-content: flex-start;
+background-color: darkblue;
+}
+.banco{
+	text-align: center;
+}
+
+.menu-lateral{
+	list-style: none;
+	padding: 0px;
+}
+
+.lateral {
+    display: block;
+    width: 200px;
+    height: 100vh;
+    background: cornflowerblue;
+    float: left;
+}
+
+.rodape-pagina {
+    display: flex;
+    background-color: darkblue;
+    color: #ffff;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 10vh;
+}
+
+.facebook{
+width: 30px;
+height: 30px;
+}
+
+
+.table-information{
+    margin-left: auto;
+	width: 100vw; 
+	height: 100vh;
+	background-image: url(https://st2.depositphotos.com/1084193/10548/v/950/depositphotos_105482794-stock-illustration-abstract-digital-web-site-header.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100%;
+
+}
+
+.divMae{
+	display: flex;
+}
+
+li {
+	padding: 20px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+li a {
+	text-decoration: none;
+}
+
+li:hover {
+  background: darkblue;
+  cursor: pointer;
+  
+}
+
+li > a {
+	color: white;
+	margin-top: 5px;
+	padding: 0px 10px;
+	position: absolute;
+	
+}
+
+li > a:hover {
+	color: #DAA520;
+}
+
+li > button{
+	width: 10%;
+	border-radius: 10%;
+}
+
+li > input {
+	width: 20%;
+	height: 40px;
+	border-radius: 10%;
+}
+.dinheiro{
+	
+	width: 25px;
+	height: 25px;
+}
+
+.box,  .box-extrato{
+	width: 30vw;
+    height: 30vh;
+	background: #fff;
+	margin: 20px;
+	border: solid 2px black;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 10px;
+	
+}
+
+.box-header {
+    height: 30px;
+    background: cornflowerblue;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 27px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.box-content {
+	padding: 5px;
+}
+
+.social-icons {
+
+	align-items: center;
+     margin: auto;
+}
+
+.invisivel {
+	display: none;
+}
+

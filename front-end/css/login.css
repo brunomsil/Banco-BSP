@@ -1,0 +1,24 @@
+ body{
+	margin-left: auto;
+	width: 100vw;
+	height: 100vh;
+	background-image: url(https://st2.depositphotos.com/1084193/10548/v/950/depositphotos_105482794-stock-illustration-abstract-digital-web-site-header.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: 100vw;
+	
+ }
+
+
+  header {
+	background-color: darkblue;
+	padding: 30px;
+	height: 80px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: 10px solid black;
+	background-size: 10%;
+	font-family: 'Major Mono Display', monospace;
+  }

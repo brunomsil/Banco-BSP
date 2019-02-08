@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/projeto.css">
+		<link rel="icon" href="icons/logo.png">
+		<script defer src="js/saldo.js"></script>
+		<script defer src="js/extrato.js"></script>
+		<script defer src="js/depositar.js"></script>
+		<script defer src="js/saque.js"></script>
+		<script defer src="js/envioDados.js"></script>
+		<script defer src="js/home.js"></script>
+		<title>Banco BSP</title>
+	</head>
+
+	<body onload="carregarDados();">
+
+		<header>
+			<div class="logo-pagina">
+				<div class="imagem-logo">
+					<img src="icons/logo.png" class="logo-image">
+				</div>
+			</div>
+		</header>
+
+		<main>	
+			<div class="lateral">
+				<ul class="menu-lateral">
+					<li><img src="icons/banco.png" class="dinheiro">
+						<a id="botaoHome">Home</a></li>
+
+					<li><img src="icons/dinheiro.png" class="dinheiro">
+						<a id="botaoDepositar">Depósito</a></li>
+
+					<li><img src="icons/saque.png" class="dinheiro">
+						<a id="botaoSaque">Saque</a></li>
+
+					<li><img src="icons/saldo.png" class="dinheiro">
+						<a id="botaoSaldo">Saldo</a></li>
+
+					<li><img src="icons/extrato.png" class="dinheiro">
+						<a id="botaoExtrato">Extrato</a></li>
+
+					<li><img src="icons/sair.png" class="dinheiro">
+						<a href="login.html" id="botaoSair">Sair</a></li>
+				</ul>
+			</div>
+
+			<div class="divMae">   
+				<div class="table-information">
+					<div class="mensagem">Bem vindo(a), </div>
+
+					<div id="campos"class="box invisivel">
+						<div class="box-content">
+							Valor
+							<input id="valor" type="text" name="fname">
+							<button  class = "invisivel" id="efetua" type="button">OK</button>
+							<button  class="invisivel" id="efetua2" type="button">OK</button>
+
+							<h2 id="informeDeposito" class="invisivel">Infome o valor do depósito</h2>
+							<h2 id="informeSaque" class="invisivel">Infome o valor do Saque</h2>
+						</div>
+					</div>
+
+					<div id="camposSaldo"class="box invisivel">
+						<div id="saldo" class="box-header">
+							Saldo
+						</div>
+					</div>
+
+					<div id = "campoExtrato" class="box invisivel ">
+						<div class="box-header">
+							Extrato
+						</div>
+
+						<div class="box-content" id="extrato">
+								
+						</div>
+
+						<div class="box-content">
+							<table id="extrato2">
+								<tr>
+									<th></th>
+									<th></th>
+									<th></th>
+									<th></th>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+				<!---<button class="botao logar">OK </button>-->
+
+		<footer> 
+			<div class="rodape-pagina">
+				<div class="social-icons">
+
+					<div class="comentario-footer">						
+						Fale Conosco :			
+					</div>
+
+					<div>
+						<span>telefone : 11 95334-9100</span>
+						
+						E-mail : suelenpessoa@brq.com || brunomarinho@brq.com || pauloferreira@brq.com
+
+						<a href="https://brqdigital.facebook.com/profile.php?id=100029768573731" target="_blank"><img src="icons/facebook.png" alt="logo-facebook" class="facebook"></a>
+
+						<a href="https://www.linkedin.com/in/suelenoliveirapessoa/" target="_blank"><img src="icons/linkedin.png" alt="logo-linkedin" class="facebook"></a>
+
+						<a href="https://www.instagram.com/ssuuelen_pessoa/?hl=pt-br" target="_blank"><img src="icons/twitter.png" alt="logo-twitter" class="facebook"></a>
+
+					</div>		
+				</div>
+			</div>		
+		</footer>
+	</body>
+</html>
